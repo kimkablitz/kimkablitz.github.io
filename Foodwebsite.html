@@ -1,0 +1,108 @@
+
+
+<!DOCTYPE html>
+<head>
+	<title>Kim's family specialty dishes</title>
+	<link href="/assets/normalize.css" rel="stylesheet">
+<style>
+	p {
+		text-align: center;
+		font-family: "sans-serif";
+		font-size: 18px;
+		color: white;
+	}
+	header {
+		text-align:center;
+		background: url("https://i.imgur.com/recYZAs.jpg");
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		color:white;
+		font-family: helvetica;
+	}
+	input {
+		border:0;
+		padding: 10px;
+		font-size: 10px
+	}
+	input[type="submit"]{
+		background: crimson;
+		color:white;
+	}
+	body{
+		background: black;
+		color:white;
+	}
+	li{
+		display:inline;
+		padding: 0px 10px 0px 10px;
+	}
+
+	 article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px){
+    	body{
+    		background: green;
+    	}
+    	h1 {
+    		font-size: 36px;
+    	}
+    	li {
+    		display: block;
+    		padding: 5px;
+    	}
+    }
+	a{
+		color:MedumVioletRed;
+	}
+	h1{
+		font-size: 30px;
+	}
+	img {
+		margin: 50px 0px 0px 0px;
+	    border: 7px solid white;
+		border-radius: 20px;
+	}
+	ul {
+		font-size: 20px;
+		background:rgba(0,0,0,0.5);
+		padding: 10px;
+	}
+</style>
+</head>
+<body>
+	<header>
+	<img src="https://i.imgur.com/HIhGaobb.jpg">
+	<img src="https://i.imgur.com/1OncM2vb.jpg">
+	<img src="https://i.imgur.com/l2AcU5Sb.jpg">
+	<img src="https://i.imgur.com/S4LsKYMb.jpg">
+
+</h1>
+	<ul>
+		<li><a href="#">About the Chef</a></li>
+		<li><a href="#">Menu</a></li>
+		<li><a href="#">Cuisines and Cultures</a></li>
+	</ul>
+</header>
+<article>
+	<h2>This week's Special</h2>
+	<p>Welcome to my family recipe collection! My recipes are special blends of East and West, with influence from Vietnamese, German, Italian and Japanese</p>
+	<button>Like</button>
+</article>
+<article>
+	<h2>My Cooking Inspiration</h2>
+	<p>By traveling solo and going to isolated areas of Vietnam, China, and the Bavaria of Germany. I learned from the locals how to produce the most authentic yet best suit our modern diet and easy to make recipes.</p>
+	<button>Select</button>
+</article>
+	<input type="email" placeholder = "Your email">
+	<input type="submit">
+<script>alert("Kimmy is the best Chef!")
+$("button").on("click", function() {
+	alert("Mmm yes!...")
+});
+</script>
+</body>
+</html>
